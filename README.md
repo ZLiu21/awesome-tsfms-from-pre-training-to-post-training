@@ -310,8 +310,8 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 #### 🧾 Time Series Classification
 
 - **A Unified Shape-Aware Foundation Model for Time Series Classification**. *AAAI 2026*  
-  **Paper**: https://www.arxiv.org/abs/2601.06429
-  **Data**: https://github.com/ZLiu21/UniShape
+  **Paper**: https://www.arxiv.org/abs/2601.06429  
+  **Code**: https://github.com/ZLiu21/UniShape
 
 - **ECGFM: A Foundation Model for ECG Analysis Trained on a Multi-Center Million-ECG Dataset**. *Information Fusion 2025*  
   **Paper**: https://www.sciencedirect.com/science/article/abs/pii/S1566253525004361
