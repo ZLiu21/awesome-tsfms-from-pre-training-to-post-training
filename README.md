@@ -5,7 +5,7 @@
 Welcome to the repository accompanying our survey paper **“From Pre-training to Post-training: A Survey on Time Series Foundation Models.”** This repository curates a comprehensive collection of representative papers and resources on **Time Series Foundation Models (TSFMs)**, with a particular focus on their development pipeline from large-scale **pre-training** to diverse **post-training** paradigms. In line with the central theme of the survey, the collected works are organized around three core aspects: (i) **datasets**, covering large-scale source domains and target-domain evaluation settings; (ii) **pre-training strategies**, including task-agnostic and task-specific learning; and (iii) **post-training methodologies**, such as supervised, collaborative, and reinforcement-based fine-tuning. By systematically organizing existing research along the full lifecycle of TSFMs, this repository aims to serve as a structured reference for researchers and practitioners interested in building, adapting, and deploying foundation models for time series analysis.
 
 <p align="center">
-    <img src="pictures/tsfm_motivation.png" width="600" align="center">
+    <img src="pictures/tsfm_motivation.png" width="500" align="center">
 </p
 
 ---
@@ -15,7 +15,7 @@ Deep learning models have achieved remarkable progress in time series analysis. 
 Time Series Foundation Models (TSFMs) trained from scratch have been developed to overcome these limitations, enabling effective knowledge transfer through domain-specific fine-tuning while preserving intrinsic time series characteristics. To this end, this survey offers a comprehensive review of TSFMs trained from scratch, following a unique perspective from pre-training to post-training. Specifically, we present a taxonomy of TSFMs across three dimensions: (1) datasets, discussing the construction of large-scale source domain datasets and the impact of target domains on model evaluation; (2) pre-training, covering task-agnostic and task-specific training paradigms; and (3) post-training, encompassing optimization via supervised, collaborative, and reinforcement-based fine-tuning. Finally, we highlight potential future research directions, including sample quality evaluation, pre-training paradigm design, and agent-based post-training, to advance the development and practical deployment of TSFMs. 
 
 <p align="center">
-    <img src="pictures/framework.png" width="800" align="center">
+    <img src="pictures/framework.png" width="600" align="center">
 </p>
 
 ---
