@@ -51,7 +51,7 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 ---
 
 ## 🗂️ Time Series Datasets for TSFMs
-### 🏗️ Large-Scale Source Domains
+### Large-Scale Source Domains
 
 - **MIRA: Medical Time Series Foundation Model for Real-World Health Data**. *NeurIPS 2025*  
   **Paper**: https://arxiv.org/pdf/2506.07584  
@@ -135,9 +135,9 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 
 ---
 
-### 🧪 Small-Scale Target Domains
+### Small-Scale Target Domains
 
-#### 🔮 Forecasting
+#### Forecasting
 
 - **ETTh1, ETTh2, ETTm1, ETTm2 Datasets**  
   **Paper**: https://ojs.aaai.org/index.php/AAAI/article/download/17325/17132  
@@ -167,7 +167,7 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 
 ---
 
-#### 🏷️ Classification
+#### Classification
 
 - **The UCR Time Series Classification Archive**. *IEEE/CAA Journal of Automatica Sinica 2019*  
   **Paper**: https://arxiv.org/pdf/1810.07758  
@@ -199,7 +199,7 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 
 ---
 
-#### 🛑 Anomaly Detection
+#### Anomaly Detection
 
 - **The UCR Time Series Anomaly Detection Archive**. *2020*  
   **Paper**: https://arxiv.org/pdf/2009.13807  
@@ -211,7 +211,7 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 
 ---
 
-#### 🧬 Imputation
+#### Imputation
 
 - **BeijingAir Dataset**  
   **Paper**: https://faculty.ecnu.edu.cn/_upload/article/files/28/df/b3c3371449d99fa8e41d1592e78c/4dd93651-78d7-4341-8486-d4bbec24af64.pdf  
@@ -239,9 +239,9 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
   
 ---
 
-## 🧠 Time Series Pre-training for TSFMs
+## Time Series Pre-training for TSFMs
 
-### 🧩 Task-Agnostic Training
+### Task-Agnostic Training
 
 - **TimesBERT: A BERT-Style Foundation Model for Time Series Understanding**. *ACM MM 2025*  
   **Paper**: https://arxiv.org/abs/2502.21245
@@ -286,9 +286,9 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 
 ---
 
-### 🎯 Task-Specific Training
+### Task-Specific Training
 
-#### 📈 Time Series Forecasting
+#### Time Series Forecasting
 
 - **Sundial: A Family of Highly Capable Time Series Foundation Models**. *ICML 2025*  
   **Paper**: https://openreview.net/forum?id=LO7ciRpjI5  
@@ -351,7 +351,7 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
   
 ---
 
-#### 🗃️ Time Series Classification
+#### Time Series Classification
 
 - **A Unified Shape-Aware Foundation Model for Time Series Classification**. *AAAI 2026*  
   **Paper**: https://www.arxiv.org/abs/2601.06429  
@@ -387,7 +387,7 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 
 ---
 
-#### 🚨 Time Series Anomaly Detection
+#### Time Series Anomaly Detection
 
 - **Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decoders**. *ICLR 2025*  
   **Paper**: https://arxiv.org/pdf/2405.15273  
@@ -408,7 +408,7 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 
 ---
 
-#### 🧵 Time Series Imputation
+#### Time Series Imputation
 
 - **Mitigating Data Scarcity in Time Series Analysis: A Foundation Model with Series-Symbol Data Generation**. *arXiv 2025*  
   **Paper**: https://arxiv.org/abs/2502.15466  
@@ -430,9 +430,9 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 
 ## 🔁 Time Series Post-training for TSFMs
 
-### 🛠️ Supervised Fine-tuning
+### Supervised Fine-tuning
 
-#### 🧱 Partial Parameters
+#### Partial Parameters
 - **Multi-Scale Finetuning for Encoder-based Time Series Foundation Models**. *NeurIPS 2025*  
   **Paper**: https://arxiv.org/pdf/2506.14087  
   **Code**: https://github.com/zqiao11/MSFT
@@ -440,7 +440,7 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 - **Convtimenet: A pre-trained deep convolutional neural network for time series classification**. *IJCNN 2019*  
   **Paper**: https://arxiv.org/pdf/1904.12546  
 
-#### 🧬 Full Parameters
+#### Full Parameters
 - **Mantis: Lightweight Calibrated Foundation Model for User-Friendly Time Series Classification**. *arXiv 2025*  
   **Paper**: https://arxiv.org/pdf/2502.15637  
   **Code**: https://github.com/vfeofanov/mantis
@@ -455,9 +455,9 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 
 ---
 
-### 🤝 Collaborative Fine-tuning
+### Collaborative Fine-tuning
 
-#### 🔗 Parameter-level Collaboration
+#### Parameter-level Collaboration
 - **H-Tuning: Toward Low-Cost and Efficient ECG-based Cardiovascular Disease Detection with Pre-Trained Models**. *ICML 2025*  
   **Paper**: https://openreview.net/pdf?id=RLu1QIPiVr  
   **Code**: https://github.com/KAZABANA/H-Tuning
@@ -479,7 +479,7 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 - **Uncertainty-Aware Fine-Tuning on Time Series Foundation Models for Anomaly Detection**. *OpenReview 2024*  
   **Paper**: https://openreview.net/pdf?id=W1wlE4bPqP
 
-#### 🧠 Model-level Collaboration
+#### Model-level Collaboration
 - **TRACE: Grounding Time Series in Context for Multimodal Embedding and Retrieval**. *NeurIPS 2025*  
   **Paper**: https://arxiv.org/pdf/2506.09114  
   **Code**: https://github.com/Graph-and-Geometric-Learning/TRACE-Multimodal-TSEncoder
@@ -499,7 +499,7 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
   **Paper**: https://proceedings.mlr.press/v225/king23a/king23a.pdf  
   **Code**: https://github.com/kingrc15/multimodal-clinical-pr
 
-#### 🧩 Hybrid-level Collaboration
+#### Hybrid-level Collaboration
 - **Foundation Model Knowledge Distillation for Battery Capacity Degradation Forecasting**. *arXiv 2025*  
   **Paper**: https://arxiv.org/pdf/2412.11276  
   **Code**: https://github.com/sjtu-chan-joey/Battery-Timer
@@ -512,9 +512,9 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 
 ---
 
-### 🎮 Reinforcement Fine-tuning
+### Reinforcement Fine-tuning
 
-#### 🧠 Reasoning-Driven Fine-tuning
+#### Reasoning-Driven Fine-tuning
 - **Time-R1: Towards Comprehensive Temporal Reasoning in Large Language Models**. *arXiv 2025*  
   **Paper**: https://arxiv.org/abs/2505.13508  
   **Code**: https://github.com/ulab-uiuc/Time-R1
@@ -532,7 +532,7 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
   **Code**: https://github.com/TauricResearch/Trading-R1
 
 
-#### ⚙️ Non-Reasoning Fine-tuning
+#### Non-Reasoning Fine-tuning
 - **LangTime: A Language-Guided Unified Model for Time Series Forecasting with Proximal Policy Optimization**. *ICML 2025*  
   **Paper**: https://arxiv.org/abs/2503.08271  
   **Code**: https://github.com/niuwz/LangTime
@@ -543,6 +543,6 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Contributions and corrections are welcome.
