@@ -5,9 +5,53 @@
 Welcome to the repository accompanying our survey paper **“From Pre-training to Post-training: A Survey on Time Series Foundation Models.”** This repository curates a comprehensive collection of representative papers and resources on **Time Series Foundation Models (TSFMs)**, with a particular focus on their development pipeline from large-scale **pre-training** to diverse **post-training** paradigms. In line with the central theme of the survey, the collected works are organized around three core aspects: (i) **datasets**, covering large-scale source domains and target-domain evaluation settings; (ii) **pre-training strategies**, including task-agnostic and task-specific learning; and (iii) **post-training methodologies**, such as supervised, collaborative, and reinforcement-based fine-tuning. By systematically organizing existing research along the full lifecycle of TSFMs, this repository aims to serve as a structured reference for researchers and practitioners interested in building, adapting, and deploying foundation models for time series analysis.
 
 ---
+## 🧭 Overview
 
-## 📊 Time Series Datasets for TSFMs
-### 🌐 Large-Scale Source Domains
+Deep learning models have achieved remarkable progress in time series analysis. However, most models require retraining when encountering new domain data, which limits their generalization and cross-domain transferability. While prior efforts have explored adapting large pre-trained language or vision models to time series tasks, modality gaps hinder their ability to capture complex temporal dynamics.
+Time Series Foundation Models (TSFMs) trained from scratch have been developed to overcome these limitations, enabling effective knowledge transfer through domain-specific fine-tuning while preserving intrinsic time series characteristics. To this end, this survey offers a comprehensive review of TSFMs trained from scratch, following a unique perspective from pre-training to post-training. Specifically, we present a taxonomy of TSFMs across three dimensions: (1) datasets, discussing the construction of large-scale source domain datasets and the impact of target domains on model evaluation; (2) pre-training, covering task-agnostic and task-specific training paradigms; and (3) post-training, encompassing optimization via supervised, collaborative, and reinforcement-based fine-tuning. Finally, we highlight potential future research directions, including sample quality evaluation, pre-training paradigm design, and agent-based post-training, to advance the development and practical deployment of TSFMs. 
+
+<p align="center">
+    <img src="pictures/framework.jpg" width="1000" align="center">
+</p>
+
+---
+
+## 📑 Contents
+
+- 🗂️ **Time Series Datasets for TSFMs**
+  - 🏗️ [Large-Scale Source Domains](#large-scale-source-domains)
+  - 🧪 [Small-Scale Target Domains](#small-scale-target-domains)
+    - 🔮 [Forecasting](#forecasting)
+    - 🏷️ [Classification](#classification)
+    - 🛑 [Anomaly Detection](#anomaly-detection)
+    - 🧬 [Imputation](#imputation)
+
+- 🧠 **Time Series Pre-training for TSFMs**
+  - 🧩 [Task-Agnostic Training](#task-agnostic-training)
+  - 🎯 [Task-Specific Training](#task-specific-training)
+    - 📈 [Time Series Forecasting](#time-series-forecasting)
+    - 🗃️ [Time Series Classification](#time-series-classification)
+    - 🚨 [Time Series Anomaly Detection](#time-series-anomaly-detection)
+    - 🧵 [Time Series Imputation](#time-series-imputation)
+
+- 🔁 **Time Series Post-training for TSFMs**
+  - 🛠️ [Supervised Fine-tuning](#supervised-fine-tuning)
+    - 🧱 [Partial Parameters](#partial-parameters)
+    - 🧬 [Full Parameters](#full-parameters)
+  - 🤝 [Collaborative Fine-tuning](#collaborative-fine-tuning)
+    - 🔗 [Parameter-level Collaboration](#parameter-level-collaboration)
+    - 🧠 [Model-level Collaboration](#model-level-collaboration)
+    - 🧩 [Hybrid-level Collaboration](#hybrid-level-collaboration)
+  - 🎮 [Reinforcement Fine-tuning](#reinforcement-fine-tuning)
+    - 🧠 [Reasoning-Driven Fine-tuning](#reasoning-driven-fine-tuning)
+    - ⚙️ [Non-Reasoning Fine-tuning](#non-reasoning-fine-tuning)
+
+- 📝 [Notes](#notes)
+
+---
+
+## 🗂️ Time Series Datasets for TSFMs
+### 🏗️ Large-Scale Source Domains
 
 - **MIRA: Medical Time Series Foundation Model for Real-World Health Data**. *NeurIPS 2025*  
   **Paper**: https://arxiv.org/pdf/2506.07584  
@@ -91,9 +135,9 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 
 ---
 
-###  📌 Small-Scale Target Domains
+### 🧪 Small-Scale Target Domains
 
-#### Forecasting
+#### 🔮 Forecasting
 
 - **ETTh1, ETTh2, ETTm1, ETTm2 Datasets**  
   **Paper**: https://ojs.aaai.org/index.php/AAAI/article/download/17325/17132  
@@ -123,7 +167,7 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 
 ---
 
-#### Classification
+#### 🏷️ Classification
 
 - **The UCR Time Series Classification Archive**. *IEEE/CAA Journal of Automatica Sinica 2019*  
   **Paper**: https://arxiv.org/pdf/1810.07758  
@@ -155,7 +199,7 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 
 ---
 
-#### Anomaly Detection
+#### 🛑 Anomaly Detection
 
 - **The UCR Time Series Anomaly Detection Archive**. *2020*  
   **Paper**: https://arxiv.org/pdf/2009.13807  
@@ -167,7 +211,7 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 
 ---
 
-#### Imputation
+#### 🧬 Imputation
 
 - **BeijingAir Dataset**  
   **Paper**: https://faculty.ecnu.edu.cn/_upload/article/files/28/df/b3c3371449d99fa8e41d1592e78c/4dd93651-78d7-4341-8486-d4bbec24af64.pdf  
@@ -197,7 +241,7 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 
 ## 🧠 Time Series Pre-training for TSFMs
 
-### Task-Agnostic Training
+### 🧩 Task-Agnostic Training
 
 - **TimesBERT: A BERT-Style Foundation Model for Time Series Understanding**. *ACM MM 2025*  
   **Paper**: https://arxiv.org/abs/2502.21245
@@ -244,7 +288,7 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 
 ### 🎯 Task-Specific Training
 
-#### ⏱️ Time Series Forecasting
+#### 📈 Time Series Forecasting
 
 - **Sundial: A Family of Highly Capable Time Series Foundation Models**. *ICML 2025*  
   **Paper**: https://openreview.net/forum?id=LO7ciRpjI5  
@@ -307,7 +351,7 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
   
 ---
 
-#### 🧾 Time Series Classification
+#### 🗃️ Time Series Classification
 
 - **A Unified Shape-Aware Foundation Model for Time Series Classification**. *AAAI 2026*  
   **Paper**: https://www.arxiv.org/abs/2601.06429  
@@ -364,7 +408,7 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 
 ---
 
-#### 🧩 Time Series Imputation
+#### 🧵 Time Series Imputation
 
 - **Mitigating Data Scarcity in Time Series Analysis: A Foundation Model with Series-Symbol Data Generation**. *arXiv 2025*  
   **Paper**: https://arxiv.org/abs/2502.15466  
@@ -384,12 +428,11 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 
 ---
 
-## 🔧 Time Series Post-training for TSFMs
+## 🔁 Time Series Post-training for TSFMs
 
+### 🛠️ Supervised Fine-tuning
 
-### Supervised Fine-tuning
-
-#### Partial Parameters
+#### 🧱 Partial Parameters
 - **Multi-Scale Finetuning for Encoder-based Time Series Foundation Models**. *NeurIPS 2025*  
   **Paper**: https://arxiv.org/pdf/2506.14087  
   **Code**: https://github.com/zqiao11/MSFT
@@ -397,7 +440,7 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 - **Convtimenet: A pre-trained deep convolutional neural network for time series classification**. *IJCNN 2019*  
   **Paper**: https://arxiv.org/pdf/1904.12546  
 
-#### Full Parameters
+#### 🧬 Full Parameters
 - **Mantis: Lightweight Calibrated Foundation Model for User-Friendly Time Series Classification**. *arXiv 2025*  
   **Paper**: https://arxiv.org/pdf/2502.15637  
   **Code**: https://github.com/vfeofanov/mantis
@@ -412,9 +455,9 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 
 ---
 
-### Collaborative Fine-tuning
+### 🤝 Collaborative Fine-tuning
 
-#### Parameter-level Collaboration
+#### 🔗 Parameter-level Collaboration
 - **H-Tuning: Toward Low-Cost and Efficient ECG-based Cardiovascular Disease Detection with Pre-Trained Models**. *ICML 2025*  
   **Paper**: https://openreview.net/pdf?id=RLu1QIPiVr  
   **Code**: https://github.com/KAZABANA/H-Tuning
@@ -436,7 +479,7 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 - **Uncertainty-Aware Fine-Tuning on Time Series Foundation Models for Anomaly Detection**. *OpenReview 2024*  
   **Paper**: https://openreview.net/pdf?id=W1wlE4bPqP
 
-#### Model-level Collaboration
+#### 🧠 Model-level Collaboration
 - **TRACE: Grounding Time Series in Context for Multimodal Embedding and Retrieval**. *NeurIPS 2025*  
   **Paper**: https://arxiv.org/pdf/2506.09114  
   **Code**: https://github.com/Graph-and-Geometric-Learning/TRACE-Multimodal-TSEncoder
@@ -456,7 +499,7 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
   **Paper**: https://proceedings.mlr.press/v225/king23a/king23a.pdf  
   **Code**: https://github.com/kingrc15/multimodal-clinical-pr
 
-#### Hybrid-level Collaboration
+#### 🧩 Hybrid-level Collaboration
 - **Foundation Model Knowledge Distillation for Battery Capacity Degradation Forecasting**. *arXiv 2025*  
   **Paper**: https://arxiv.org/pdf/2412.11276  
   **Code**: https://github.com/sjtu-chan-joey/Battery-Timer
@@ -469,9 +512,9 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 
 ---
 
-### Reinforcement Fine-tuning
+### 🎮 Reinforcement Fine-tuning
 
-#### Reasoning-Driven Fine-tuning
+#### 🧠 Reasoning-Driven Fine-tuning
 - **Time-R1: Towards Comprehensive Temporal Reasoning in Large Language Models**. *arXiv 2025*  
   **Paper**: https://arxiv.org/abs/2505.13508  
   **Code**: https://github.com/ulab-uiuc/Time-R1
@@ -489,7 +532,7 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
   **Code**: https://github.com/TauricResearch/Trading-R1
 
 
-#### Non-Reasoning Fine-tuning
+#### ⚙️ Non-Reasoning Fine-tuning
 - **LangTime: A Language-Guided Unified Model for Time Series Forecasting with Proximal Policy Optimization**. *ICML 2025*  
   **Paper**: https://arxiv.org/abs/2503.08271  
   **Code**: https://github.com/niuwz/LangTime
@@ -500,6 +543,6 @@ Welcome to the repository accompanying our survey paper **“From Pre-training t
 
 ---
 
-## 📌 Notes
+## 📝 Notes
 
 - Contributions and corrections are welcome.
