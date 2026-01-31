@@ -2,7 +2,7 @@
 
 ---
 
-Welcome to the repository accompanying our survey paper **“From Pre-training to Post-training: A Survey on Time Series Foundation Models.”** This repository curates a comprehensive collection of representative papers and resources on **Time Series Foundation Models (TSFMs)**, with a particular focus on their development pipeline from large-scale **pre-training** to diverse **post-training** paradigms. In line with the central theme of the survey, the collected works are organized around three core aspects: (i) **datasets**, covering large-scale source domains and target-domain evaluation settings; (ii) **pre-training strategies**, including task-agnostic and task-specific learning; and (iii) **post-training methodologies**, such as supervised, collaborative, and reinforcement-based fine-tuning. By systematically organizing existing research along the full lifecycle of TSFMs, this repository aims to serve as a structured reference for researchers and practitioners interested in building, adapting, and deploying foundation models for time series analysis.
+Welcome to the repository accompanying our survey paper **“[From Pre-training to Post-training: A Survey on Time Series Foundation Models](https://www.techrxiv.org/doi/full/10.36227/techrxiv.176978429.90235801/v1).”** This repository curates a comprehensive collection of representative papers and resources on **Time Series Foundation Models (TSFMs)**, with a particular focus on their development pipeline from large-scale **pre-training** to diverse **post-training** paradigms. In line with the central theme of the survey, the collected works are organized around three core aspects: (i) **datasets**, covering large-scale source domains and target-domain evaluation settings; (ii) **pre-training strategies**, including task-agnostic and task-specific learning; and (iii) **post-training methodologies**, such as supervised, collaborative, and reinforcement-based fine-tuning. By systematically organizing existing research along the full lifecycle of TSFMs, this repository aims to serve as a structured reference for researchers and practitioners interested in building, adapting, and deploying foundation models for time series analysis.
 
 <p align="center">
     <img src="pictures/tsfm_motivation.png" width="500" align="center">
@@ -17,6 +17,21 @@ Time Series Foundation Models (TSFMs) trained from scratch have been developed t
 <p align="center">
     <img src="pictures/framework.png" width="600" align="center">
 </p>
+
+---
+
+## 📖 Citation
+If you find this resource helpful, please consider starring this repository and citing our survey paper:
+```
+@article{liu2026tsfm,
+  title={From Pre-training to Post-training: A Survey on Time Series Foundation Models}, 
+  author={Liu, Zhen and  Li, Boyuan and Huang, Hao and Sun, Yanru and Wang, Yucheng and Wu, Min and Ma, Qianli},
+  journal={TechRxiv}, 
+  pages={1-23},
+  year={2026},
+  doi={10.36227/techrxiv.176978429.90235801/v1}
+}
+```
 
 ---
 
